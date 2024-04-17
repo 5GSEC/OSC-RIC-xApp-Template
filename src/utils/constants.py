@@ -29,6 +29,10 @@ class Constants:
     PLT_NAMESPACE = "ricplt"
     SUBSCRIPTION_SERVICE = "submgr"
     SUBSCRIPTION_PORT = "3800"
+    # Below message def from https://github.com/o-ran-sc/ric-plt-lib-rmr/blob/master/src/rmr/common/include/RIC_message_types.h
     SUBSCRIPTION_REQ = 12011
-    INDICATION_REQ = 12050  # TODO: need to figure how these constant values are defined
+    INDICATION_REQ = 12050
+    RIC_CONTROL_REQ = 12040
+    RIC_CONTROL_ACK = 12041
+    RIC_CONTROL_FAILURE = 12042
 
