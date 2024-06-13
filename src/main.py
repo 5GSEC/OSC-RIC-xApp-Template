@@ -20,8 +20,8 @@ from .xapp import TemplateXapp
 
 
 def launchXapp():
-    template_xapp = TemplateXapp()
-    template_xapp.start()
+    xapp = TemplateXapp()
+    xapp.start()
 
 
 if __name__ == "__main__":

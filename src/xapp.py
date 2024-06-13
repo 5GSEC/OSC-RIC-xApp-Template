@@ -52,7 +52,7 @@ class TemplateXapp:
         rmr_xapp.logger.info("HWXapp.post_init :: post_init called")
         sdl_mgr = SdlManager(rmr_xapp)
         sub_mgr = SubscriptionManager(rmr_xapp)
-        sdl_alarm_mgr = SdlAlarmManager(rmr_xapp)
+        # sdl_alarm_mgr = SdlAlarmManager(rmr_xapp)
         a1_mgr = A1PolicyManager(rmr_xapp)
         a1_mgr.startup()
         metric_mgr = MetricManager(rmr_xapp)
